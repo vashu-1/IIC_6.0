@@ -1,0 +1,33 @@
+.banner {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 1;
+}
+.animate {
+  position: absolute;
+  animation: hero 1.7s infinite;
+}
+@keyframes hero {
+  0% {
+    /* transform: translateY(-30px); */
+    bottom: 15px;
+    right: 40px;
+  }
+  /* 30%{
+    bottom: 12px;
+    right: 40px;
+  }
+  60%{
+    bottom: 7px;
+    right: 40px;
+  } */
+  100% {
+    bottom: 4px;
+    right: 40px;
+  }
+}
