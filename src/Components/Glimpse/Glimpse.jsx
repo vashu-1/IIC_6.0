@@ -5,20 +5,20 @@ import "aos/dist/aos.css";
 
 const Glimpse = () => {
   useEffect(() => {
-    AOS.init({ duration: "2000" });
+    AOS.init({ duration: "1000" });
   }, []);
   return (
     <section className="text-center">
-      <h4 className="text-gray-400" data-aos="fade-up" data-aos-duration="2000">
+      <h4 className="text-gray-400" data-aos="fade-up" data-aos-duration="1000">
         WITNESS THE AWESOMENESS
       </h4>
-      <div className="heading" data-aos="fade-up" data-aos-duration="2500">
+      <div className="heading" data-aos="fade-up" data-aos-duration="1000">
         Glimpse <span></span>
       </div>
       <p
         className="text-gray-400 mb-4"
         data-aos="fade-up"
-        data-aos-duration="2500"
+        data-aos-duration="1000"
       >
         IIC 6.0 brings ton\ its participants a host of events, ranging from
         immersive talks to exciting competition!
