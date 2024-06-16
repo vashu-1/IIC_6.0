@@ -6,11 +6,11 @@ import "aos/dist/aos.css";
 
 const Patronage = () => {
   useEffect(() => {
-    AOS.init({ duration: "1500" });
+    AOS.init({ duration: "1000" });
   }, []);
   return (
     <section className="max-w-7xl m-auto  text-center lg:my-20 my-0">
-      <div className="heading my-8" data-aos="fade-up" data-aos-duration="5000">
+      <div className="heading my-8" data-aos="fade-up" data-aos-duration="1000">
         Our Patronage <span></span>
       </div>
       <div className="flex justify-evenly flex-wrap">
@@ -57,7 +57,7 @@ const Patronage = () => {
         <div
           className="relative lg:translate-y-48 translate-y-0"
           data-aos="fade-up"
-          data-aos-duration="5000"
+          data-aos-duration="1000"
         >
           <img
             src="./convener.jpeg"
