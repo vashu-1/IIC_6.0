@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 const Talk = () => {
   useEffect(() => {
-    AOS.init({ duration: "1500" });
+    AOS.init({ duration: "1000" });
   }, []);
   const [current, setCurrent] = useState(0);
 
@@ -30,7 +30,7 @@ const Talk = () => {
           <img src="./pitch-meeting.png" className="w-full" alt="" />
         </div>
         <div className="flex-1 xl:translate-y-32 text-center">
-          <div className="heading " data-aos="fade-up" data-aos-duration="5000">
+          <div className="heading " data-aos="fade-up" data-aos-duration="1000">
             Series of Talk <span></span>
           </div>
           <div data-aos="fade-up" data-aos-duration="2000">
