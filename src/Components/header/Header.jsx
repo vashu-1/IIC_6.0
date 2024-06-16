@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 
 const Header = () => {
   useEffect(() => {
-    AOS.init({ duration: "2000",delay: "1000" });
+    AOS.init({ duration: "1000",delay: "1000" });
   }, []);
   return (
     <section className="banner text-center w-full">
@@ -20,14 +20,14 @@ const Header = () => {
         <h3
           className="text-white sm:text-2xl text-lg flex justify-center -z-10"
           data-aos="fade-up"
-          data-aos-duration="270000"
+          data-aos-duration="1000"
         >
           IDEATE. INNOVATE. INCUBATE.
         </h3>
         <h1
           className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl text-white font-bold my-8 -z-1"
           data-aos="fade-up"
-          data-aos-duration="3400"
+          data-aos-duration="1000"
         >
           <span className="md:text-blue-700 text-white">I</span>nstitution{" "}
           <span className="md:text-orange-500 text-white">I</span>ncubation{" "}
@@ -37,7 +37,7 @@ const Header = () => {
         <button
           className="border-white border-2 mt-6 text-white sm:text-2xl text-xl py-2 px-4 font-serif"
           data-aos="fade-up"
-          data-aos-duration="4500"
+          data-aos-duration="1000"
         >
           EXPLORE NOW
         </button>
@@ -45,7 +45,7 @@ const Header = () => {
       <div
         className="absolute text-white flex-col bottom-0 md:text-4xl sm:text-3xl text-2xl"
         data-aos="fade-up"
-        data-aos-duration="14000"
+        data-aos-duration="1000"
       >
         <FaYoutube className="my-6 ml-6 hover:text-red-700" />
         <FaFacebookSquare className="my-6 ml-6 hover:text-blue-700" />
