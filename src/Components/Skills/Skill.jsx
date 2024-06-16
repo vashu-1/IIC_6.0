@@ -5,11 +5,11 @@ import "aos/dist/aos.css";
 
 const Skill = () => {
   useEffect(() => {
-    AOS.init({ duration: "1500" });
+    AOS.init({ duration: "1000" });
   }, []);
   return (
     <section className="max-w-7xl m-auto text-center lg:my-20 my-4">
-      <div className="heading" data-aos="fade-up" data-aos-duration="2500">
+      <div className="heading" data-aos="fade-up" data-aos-duration="1000">
         What we do <span></span>
       </div>
       <div className="flex  gap-12 justify-evenly flex-wrap my-4">
