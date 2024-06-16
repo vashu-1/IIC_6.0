@@ -8,13 +8,13 @@ import "aos/dist/aos.css";
 
 const Footer = () => {
   useEffect(() => {
-    AOS.init({ duration: "1500" });
+    AOS.init({ duration: "1000" });
   }, []);
   return (
     <section
       className="max-w-7xl m-auto"
       data-aos="fade-up"
-      data-aos-duration="3000"
+      data-aos-duration="1000"
     >
       <hr className="text-white" />
       <div className="flex lg:flex-row flex-col lg:text-left text-center">
