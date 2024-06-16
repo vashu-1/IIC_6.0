@@ -6,11 +6,11 @@ import "aos/dist/aos.css";
 
 const Team = () => {
   useEffect(() => {
-    AOS.init({ duration: "1500" });
+    AOS.init({ duration: "1000" });
   }, []);
   return (
     <section id="team" className="max-w-7xl m-auto  text-center lg:mt-52 mt-20">
-      <div className="heading my-4" data-aos="fade-up" data-aos-duration="2500">
+      <div className="heading my-4" data-aos="fade-up" data-aos-duration="1000">
         Our Team<span></span>
       </div>
       <p
