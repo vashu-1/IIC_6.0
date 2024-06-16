@@ -5,13 +5,13 @@ import "aos/dist/aos.css";
 
 const Initiatives = () => {
   useEffect(() => {
-    AOS.init({ duration: "1500" });
+    AOS.init({ duration: "1000" });
   }, []);
   return (
     <>
       <section id="events" className="flex flex-col max-w-7xl m-auto ">
         <div className="text-center">
-          <div className="heading my-8 " data-aos="fade-up" data-aos-duration="5000">
+          <div className="heading my-8 " data-aos="fade-up" data-aos-duration="1000">
             Our Initiatives
             <span></span>
           </div>
