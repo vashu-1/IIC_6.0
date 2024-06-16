@@ -27,7 +27,7 @@ const Achievement = () => {
           allowMultipleExpanded={false}
           preExpanded={[0]}
           data-aos="fade-up"
-          data-aos-duration="2700"
+          data-aos-duration="1000"
         >
           {data.map((item, i) => {
             return (
@@ -60,7 +60,7 @@ const Achievement = () => {
           })}
         </Accordion>
       </div>
-      <div className="flex-1" data-aos="fade-up" data-aos-duration="2700">
+      <div className="flex-1" data-aos="fade-up" data-aos-duration="1000">
         <img src="./success.png" alt="" />
       </div>
     </section>
